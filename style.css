@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Common Css */
+
+.btn{
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Nav bar */
+
+header{
+    background: url(assets/developer.png), url(assets/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+nav{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.logo{
+    font-size: 45px;
+    color: #181818;
+}
+
+.logo span{
+    color: #FD6E0A;
+}
+
+.nav-link{}
+
+.nav-link ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-link ul li{
+    list-style: none;
+    margin-left: 30px;
+}
+
+.nav-link ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+    font-weight: 400;
+}
+
+
+/* Hero Section */
+
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 350px;
+    padding-right: 50px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-text h3{
+    color: rgb(71, 71, 71);
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.hero-text h1{
+    color: rgb(24, 24, 24);
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.hero-text p{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    width: 580px;
+    margin-top: 10px;
+}
+
+.btn-2{
+    background-color: white!important;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    margin-left: 30px;
+}
+
+.hero-img img{
+    padding: 0;
+    margin: 0;
+    margin-bottom: -5px;
+}
+
+
+/* About us section */
+
+.about-us{
+    margin: 230px;
+}
+
+.about-color-pd{
+    padding: 130px 150px;
+    background-color: rgb(255, 248, 243);
+    border-radius: 10px;
+}
+
+.about-content-area{
+    background-color: #fff;
+    border: 1px solid #9c9c9c;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.about-content-area h1{
+    text-align: center;
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.about-content-area p{
+    text-align: center;
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about-content-area > p{
+    margin: 20px 0;
+}
+
+.about-list{
+    display: flex;
+    justify-content: space-around;
+}
+.about-item-info p{
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+}
+
+.about-item-infoh4{
+    font-size: 30px;
+}
+
+
+/* Service Section */
+
+.service-section{
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 230px;
+}
+
+.service-title{
+    text-align: center;
+    width: 900px;
+    margin: auto;
+}
+
+.service-title h1{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.service-title p{
+    color: rgb(117, 117, 117);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.service-card{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card{
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 30px;
+
+}
+
+.card h3{
+    margin: 30px 0;
+}
+.card p{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* My Resume section */
+
+.resume{
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 230px;
+}
+
+.resume-container > h1{
+    text-align: center;
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 113px;
+}
+
+.resume-details{
+    display: flex;
+    gap: 30px;
+}
+
+.resume-dts-left h1, .resume-dts-right h1{
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-bottom: 30px;
+}
+
+.resume-card h2{
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.resume-card h5{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    margin: 10px 0 20px 0;
+}
+
+.resume-card p{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-right: 50px;
+    margin-bottom: 30px;
+}
+hr{
+    margin-bottom: 30px;
+}
