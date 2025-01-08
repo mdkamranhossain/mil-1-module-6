@@ -51,8 +51,6 @@ nav{
     color: #FD6E0A;
 }
 
-.nav-link{}
-
 .nav-link ul{
     display: flex;
     align-items: center;
