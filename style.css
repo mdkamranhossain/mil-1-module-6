@@ -333,3 +333,9 @@ footer{
     border: none;
     border-radius: 5px;
 }
+
+
+.download-cv{
+    text-align: center;
+    margin-top: 30px;
+}
